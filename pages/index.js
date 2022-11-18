@@ -12,21 +12,28 @@ export default function Home() {
 
 			<Navbar />
 
-			<div class="grid md:grid-cols-10 ">
-				<aside class=" md:col-span-4    bg-teal-600">
-					<div class="sticky md:h-screen content-center">aa</div>
+			<div class=" grid md:grid-cols-10">
+				<aside class="self-start md:sticky inset-y-0 left-0 md:col-span-4 flex ">
+					<div class="md:h-screen h-96 bg-red-300 md:py-[50vh]  w-full justify-center items-center ">
+						<span>Kamusta? I’m Sheena! I’m a</span>
+						<h1>Front-end Web Developer</h1>
+						<span>
+							Passionate about turning ideas into reality. I design & build
+							effective websites & web apps through frontend web technologies,
+							specializing in ReactJS & Webflow. Currently, I’m looking for
+							full-time work.
+						</span>
+					</div>
 				</aside>
 
-				<main class="md:col-span-6">
-					<div class="h-screen">aa</div>
-					<div class="h-screen bg-gray-400">aa</div>
-				</main>
+				<div class="md:col-span-6">
+					<div class="">
+						<div class="h-screen bg-red-200 ">A1</div>
+						<div class="h-screen bg-yellow-200 ">B1</div>
+					</div>
+				</div>
 			</div>
-			<div class="grid md:grid-cols-10 h-screen">
-				<aside class="self-start sticky top-0 col-span-4">Fixed Sidebar</aside>
 
-				<main class="col-span-6">Content</main>
-			</div>
 
 			<footer></footer>
 		</>
