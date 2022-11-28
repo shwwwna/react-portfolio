@@ -1,14 +1,26 @@
 @tailwind base;
 @tailwind components;
+
+.tooltip {
+	@apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+	@apply visible z-50;
+}
+
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @layer base {
 	html,
 	body {
 		padding: 0;
 		margin: 0;
-		font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-			Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		font-family: "Work Sans", "Inter", -apple-system, BlinkMacSystemFont,
+			Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+			Helvetica Neue, sans-serif;
 	}
 
 	a {
@@ -30,3 +42,56 @@
 		background: black;
 	}
 } */
+
+#sidebar {
+	background: linear-gradient(
+		270deg,
+		rgb(30 41 59),
+		#355070,
+		#6d597a,
+		#b56576,
+		#e56b6f
+	);
+	/* #dd7b46 */
+	background-size: 1000% 1000%;
+
+	-webkit-animation: AnimationName 60s ease infinite;
+	-moz-animation: AnimationName 60s ease infinite;
+	animation: AnimationName 60s ease infinite;
+
+	color: #fff;
+}
+
+@-webkit-keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-moz-keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
