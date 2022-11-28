@@ -14,8 +14,10 @@ const Card = ({ src, h5, p, a1, a2, alltags }) => {
 						{h5}
 					</h5>
 				</a>
-				{alltags.map((text, id) => {
-					<Tag text={text} id={id} />;
+				{alltags.map((text) => {
+					<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+						{text}
+					</span>;
 				})}
 				<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{p}</p>
 				<a
