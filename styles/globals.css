@@ -44,14 +44,7 @@
 } */
 
 #sidebar {
-	background: linear-gradient(
-		270deg,
-		rgb(30 41 59),
-		#355070,
-		#6d597a,
-		#b56576,
-		#e56b6f
-	);
+	background: linear-gradient(270deg, #1e293b, #355070, #6d597a, #b56576);
 	/* #dd7b46 */
 	background-size: 1000% 1000%;
 
