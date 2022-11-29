@@ -32,14 +32,14 @@ const Projects = () => {
 						repoLink="https://github.com/shwwwna/ecommerce"
 						alltags={["ReactJS", "styled-components"]}
 					/>
-					<Card
+					{/* <Card
 						imageSource={""}
 						title="Todonato"
 						description="To-do app with authentication and storage."
 						liveLink=""
 						repoLink=""
 						alltags={["NextJS", "TailwindCSS", "Firebase"]}
-					/>
+					/> */}
 					<Card
 						imageSource={""}
 						title="Recipe directory"

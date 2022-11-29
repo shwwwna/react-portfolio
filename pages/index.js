@@ -20,14 +20,7 @@ export default function Home() {
 					property="og:image"
 					content="https://github.com/shwwwna/react-portfolio/blob/main/public/assets/opengraph.png?raw=true"
 				/>
-				<link rel="icon" href="../public/favicon.ico" />
-				<link
-					rel="stylesheet"
-					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-					integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-					crossOrigin="anonymous"
-					referrerPolicy="no-referrer"
-				/>
+				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
 			<div className="lg:grid lg:grid-cols-10">
@@ -43,6 +36,7 @@ export default function Home() {
 							src={HeroImage}
 							alt="a picture of me, smiling at you"
 							className="lg:h-screen sm:h-[50rem] h-96 grayscale  hover:grayscale-0  transition-all duration-700  object-cover object-top w-full "
+							priority="true"
 						/>
 					</div>
 					<div className="  p-14 ">
