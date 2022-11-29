@@ -17,7 +17,11 @@ const Card = ({
 				href={liveLink ? liveLink : "#projects"}
 				target={liveLink ? "_blank" : ""}
 				rel="noreferrer">
-				<Image className="rounded-t-lg" alt="" src={imageSource} />
+				{imageSource ? (
+					<Image className="rounded-t-lg" alt="" src={imageSource} />
+				) : (
+					""
+				)}
 			</a>
 			<div className="p-5 relative ">
 				<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
