@@ -20,7 +20,7 @@ export default function Home() {
 					property="og:image"
 					content="https://github.com/shwwwna/react-portfolio/blob/main/public/assets/opengraph.png?raw=true"
 				/>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/assets/favicon.ico" />
 			</Head>
 
 			<div className="lg:grid lg:grid-cols-10">
