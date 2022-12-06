@@ -3,10 +3,14 @@ import React from "react";
 const About = () => {
 	return (
 		<>
-			<div className="py-4 gap-2 flex flex-col max-w-prose	 ">
+			<div className="py-4 gap-2 flex flex-col max-w-prose group	 ">
 				<h1 className="font-bold text-4xl mt-0 mb-2  ">Sheena Tuazon</h1>
 				<div className="">
-					I’m a Front-end Designer and Developer based in the Philippines.
+					I’m a{" "}
+					<span className="group-hover:underline  decoration-teal-500/80 decoration-2 ">
+						Front-end Designer and Developer
+					</span>{" "}
+					based in the Philippines.
 				</div>
 				<div className="">
 					My interest started back in 2007. When I was 9 years old, I designed
@@ -15,11 +19,21 @@ const About = () => {
 					websites, software, and apps.
 				</div>
 				<div className="">
-					Passionate in creating user-friendly apps that make life better and
-					more efficient, I aim to help make an impact for businesses. I also
-					keep a database of my webapp ideas to be developed in the future - 70
-					and counting! Now, after discovering my calling - I am pursuing a
-					career in tech, eager to never stop learning.
+					Passionate in creating{" "}
+					<span className="group-hover:underline  decoration-teal-500/80 decoration-2 ">
+						user-friendly apps
+					</span>{" "}
+					that make life better and more efficient, I aim to help make an{" "}
+					<span className="group-hover:underline  decoration-teal-500/80 decoration-2 ">
+						impact for businesses
+					</span>
+					. I also keep a database of my webapp ideas to be developed in the
+					future - 70 ideas and counting! Now, after discovering my calling - I
+					am pursuing a career in tech, eager to{" "}
+					<span className="group-hover:underline  decoration-teal-500/80 decoration-2 ">
+						never stop learning
+					</span>
+					.
 				</div>
 				<h1 className="text-xl  mt-10 mb-2 ">My tech stack</h1>
 				<h2 className=" text-lg font-semibold text-white"></h2>

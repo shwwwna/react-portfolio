@@ -10,17 +10,27 @@ const Hero = () => {
 					</span>
 					<div className="italic ">Kamusta?</div>
 				</div>
-				<div>I’m Sheena! I’m a</div>
+				<h3>I’m Sheena Tuazon,</h3>
 			</div>
 
 			<h1 className="text-4xl	md:text-5xl font-bold">Front-end Web Developer</h1>
-			<div className="py-4 gap-2 flex flex-col opacity-80 max-w-prose	 ">
+			<div className="py-4 gap-2 flex flex-col opacity-80 max-w-prose	group ">
 				<div className="">Passionate about turning ideas into reality.</div>
 				<div className="">
 					I design & build effective websites & web apps through frontend web
-					technologies, specializing in ReactJS.
+					technologies, specializing in{" "}
+					<span className="group-hover:underline decoration-white decoration-4">
+						{" "}
+						ReactJS
+					</span>
+					.
 				</div>
-				<div className="">Currently, I’m looking for full-time work.</div>
+				<div className="">
+					Currently, I’m looking for{" "}
+					<span className="group-hover:underline decoration-white decoration-4">
+						full-time work.
+					</span>
+				</div>
 			</div>
 			<div className="flex flex-wrap">
 				<a
