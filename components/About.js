@@ -24,7 +24,7 @@ const About = () => {
 				<dl className=" divide-y  text-white divide-gray-700">
 					<div className="flex flex-col pb-3">
 						<dt className="mb-1  md:text-lg text-gray-400">Javascript</dt>
-						<dd className="text-lg font-semibold">ReactJS, NextJS</dd>
+						<dd className="text-lg font-semibold">ReactJS, NextJS, Vite</dd>
 					</div>
 					<div className="flex flex-col py-3">
 						<dt className="mb-1  md:text-lg text-gray-400">CSS</dt>
@@ -32,10 +32,10 @@ const About = () => {
 							Material UI, TailwindCSS, styled-components
 						</dd>
 					</div>
-					<div className="flex flex-col py-3">
+					{/* <div className="flex flex-col py-3">
 						<dt className="mb-1  md:text-lg text-gray-400">Backend</dt>
 						<dd className="text-lg font-semibold">Firebase</dd>
-					</div>
+					</div> */}
 					<div className="flex flex-col py-3">
 						<dt className="mb-1  md:text-lg text-gray-400">
 							Visual development
