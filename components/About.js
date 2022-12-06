@@ -6,18 +6,20 @@ const About = () => {
 			<div className="py-4 gap-2 flex flex-col max-w-prose	 ">
 				<h1 className="font-bold text-4xl mt-0 mb-2  ">Sheena Tuazon</h1>
 				<div className="">
-					I’m a Front-end Designer and Developer based in the Philippines.{" "}
+					I’m a Front-end Designer and Developer based in the Philippines.
 				</div>
 				<div className="">
-					My interest started back in 2007, when I was 9 years old. I designed
+					My interest started back in 2007. When I was 9 years old, I designed
 					and built a self-hosted blog using Photoshop and free hosting & domain
 					services. I have always been enthusiastic about finding the best
 					websites, software, and apps.
 				</div>
 				<div className="">
-					I am passionate in creating user-friendly apps that make life better
-					and more efficient. Now, after discovering my calling - I am pursuing
-					a career in tech, eager to never stop learning.
+					Passionate in creating user-friendly apps that make life better and
+					more efficient, I aim to help make an impact for businesses. I also
+					keep a database of my webapp ideas to be developed in the future - 70
+					and counting! Now, after discovering my calling - I am pursuing a
+					career in tech, eager to never stop learning.
 				</div>
 				<h1 className="text-xl  mt-10 mb-2 ">My tech stack</h1>
 				<h2 className=" text-lg font-semibold text-white"></h2>
