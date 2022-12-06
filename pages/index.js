@@ -22,7 +22,7 @@ export default function Home() {
 				/>
 			</Head>
 
-			<div className="lg:grid lg:grid-cols-10">
+			<div className="lg:grid lg:grid-cols-10 selection:bg-teal-900 selection:text-slate">
 				<aside
 					className="self-start lg:sticky lg:h-screen  top-0 col-span-3 flex p-14 flex-col justify-center "
 					id="sidebar">
