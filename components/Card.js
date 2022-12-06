@@ -30,13 +30,13 @@ const Card = ({
 				{alltags.map((text, index) => {
 					return (
 						<span
-							className="inline-block bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+							className="inline-block text-slate-200 rounded-lg px-3 py-1 text-sm font-semibold bg-slate-600 mr-2 mb-2"
 							key={index}>
 							{text}
 						</span>
 					);
 				})}
-				<p className="mb-3 font-normal  text-gray-400">{description}</p>
+				<p className="mb-3 font-normal  text-slate-400">{description}</p>
 
 				<div className="absolute bottom-0 right-0 px-3 py-1 flex gap-3 text-xl ">
 					{liveLink && (
