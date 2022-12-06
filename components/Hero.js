@@ -18,7 +18,7 @@ const Hero = () => {
 				<div className="">Passionate about turning ideas into reality.</div>
 				<div className="">
 					I design & build effective websites & web apps through frontend web
-					technologies, specializing in ReactJS & Webflow.
+					technologies, specializing in ReactJS.
 				</div>
 				<div className="">Currently, I’m looking for full-time work.</div>
 			</div>
