@@ -44,12 +44,12 @@ const Card = ({
 							href={liveLink ? liveLink : "#projects"}
 							target={liveLink ? "_blank" : ""}
 							rel="noreferrer">
-							<i className="fa-solid fa-square-arrow-up-right"></i>
+							<i className="fa-solid fa-square-arrow-up-right hover:text-teal-300"></i>
 						</a>
 					)}
 					{repoLink && (
 						<a href={repoLink} target="_blank" rel="noreferrer" className="">
-							<i className="fa-brands fa-github"></i>
+							<i className="fa-brands fa-github hover:text-teal-300"></i>
 						</a>
 					)}
 				</div>

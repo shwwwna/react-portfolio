@@ -9,7 +9,7 @@ const Projects = () => {
 			<div className="flex items-center flex-col">
 				<h1 className="font-bold text-4xl mt-0 mb-2 ">I like to create!</h1>
 				<h2 className="  mt-0 mb-8 text-gray-300">
-					Check out some of the things I’ve built.
+					Check out some of the webapps I’ve built.
 				</h2>
 			</div>
 			{/* flex gap-3 flex-wrap   */}

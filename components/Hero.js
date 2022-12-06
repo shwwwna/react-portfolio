@@ -2,10 +2,10 @@ import React from "react";
 
 const Hero = () => {
 	return (
-		<>
+		<div className="group">
 			<div className="text-sm text-g opacity-80 ">
 				<div className="has-tooltip">
-					<span className="tooltip rounded shadow-lg p-1 bg-gray-700 italic   -mt-8 ">
+					<span className="tooltip rounded shadow-lg p-1 bg-teal-700 italic   -mt-8 ">
 						How are you?
 					</span>
 					<div className="italic ">Kamusta?</div>
@@ -14,12 +14,12 @@ const Hero = () => {
 			</div>
 
 			<h1 className="text-4xl	md:text-5xl font-bold">Front-end Web Developer</h1>
-			<div className="py-4 gap-2 flex flex-col opacity-80 max-w-prose	group ">
+			<div className="py-4 gap-2 flex flex-col opacity-80 max-w-prose	 ">
 				<div className="">Passionate about turning ideas into reality.</div>
 				<div className="">
 					I design & build effective websites & web apps through frontend web
 					technologies, specializing in{" "}
-					<span className="group-hover:underline decoration-white decoration-4">
+					<span className="group-hover:underline decoration-teal-500/80 decoration-4">
 						{" "}
 						ReactJS
 					</span>
@@ -27,7 +27,7 @@ const Hero = () => {
 				</div>
 				<div className="">
 					Currently, I’m looking for{" "}
-					<span className="group-hover:underline decoration-white decoration-4">
+					<span className="group-hover:underline decoration-teal-500/80 decoration-4">
 						full-time work.
 					</span>
 				</div>
@@ -51,7 +51,7 @@ const Hero = () => {
 					Contact me
 				</a>
 			</div>
-		</>
+		</div>
 	);
 };
 

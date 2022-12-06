@@ -34,7 +34,7 @@ export default function Home() {
 						<Image
 							src={HeroImage}
 							alt="a picture of me, smiling at you"
-							className="lg:h-screen sm:h-[50rem] h-96 grayscale  hover:grayscale-0  transition-all duration-700  object-cover object-top w-full "
+							className="lg:h-screen sm:h-[50rem] h-96 grayscale  hover:grayscale-0   transition-all duration-700  object-cover object-top w-full "
 							priority="true"
 						/>
 					</div>
