@@ -25,11 +25,25 @@ const Hero = () => {
 					</span>
 					.
 				</div>
-				<div className="">
-					Currently, I’m looking for{" "}
-					<span className="group-hover:underline decoration-teal-500/80 decoration-4">
-						full-time work.
-					</span>
+				<div
+					id="alert-5"
+					class="flex p-4  rounded-lg bg-black/50  mix-blend-hard-light  w-full md:w-fit	"
+					role="alert">
+					<svg
+						aria-hidden="true"
+						class="flex-shrink-0 w-5 h-5 text-gray-300"
+						fill="currentColor"
+						viewBox="0 0 20 20"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							fill-rule="evenodd"
+							d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+							clip-rule="evenodd"></path>
+					</svg>
+					<span class="sr-only">Info</span>
+					<div class="ml-3 text-sm font-medium mix-blend-normal text-gray-300">
+						Currently, I am booked until February 2023.
+					</div>
 				</div>
 			</div>
 			<div className="flex flex-wrap">
@@ -38,7 +52,7 @@ const Hero = () => {
 					target="_blank"
 					rel="noreferrer"
 					href="https://drive.google.com/file/d/1_py2XW-1qUlOKZjQRU1-i_cf9TJuTJFC/view?usp=share_link"
-					className="border border-slate-900 text-white bg-slate-900 hover:bg-slate-800 focus:ring-4 focus:ring-slate-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  focus:outline-none transition-all duration-200 shadow w-full md:w-fit text-center ">
+					className="border border-slate-900 text-white bg-slate-900 hover:bg-slate-800 focus:ring-4 focus:ring-slate-300 font-medium rounded-lg text-sm px-5 py-2.5 md:mr-2 mb-2  focus:outline-none transition-all duration-200 shadow w-full md:w-fit text-center ">
 					Download my resume
 				</a>
 
@@ -47,7 +61,7 @@ const Hero = () => {
 					target="_blank"
 					rel="noreferrer"
 					href="https://www.linkedin.com/in/sheena-tuazon/"
-					className=" border border-gray-300 focus:outline-none hover:bg-teal-700 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  transition-all duration-200 shadow w-full md:w-fit text-center ">
+					className=" border border-gray-300 focus:outline-none hover:bg-teal-700 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 md:mr-2 mb-2  transition-all duration-200 shadow w-full md:w-fit text-center ">
 					Contact me
 				</a>
 			</div>
