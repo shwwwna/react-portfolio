@@ -59,7 +59,7 @@ const Projects = () => {
 					<Card
 						imageSource={""}
 						title="Webflow Portfolio"
-						description="Portfolio of works in Webflow. Currently not accepting freelance clients."
+						description="Portfolio of works in Webflow. "
 						liveLink="https://shwwwna.webflow.io/"
 						repoLink=""
 						alltags={["Webflow"]}
