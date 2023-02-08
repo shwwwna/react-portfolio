@@ -42,7 +42,7 @@ const Hero = () => {
 					</svg>
 					<span class="sr-only">Info</span>
 					<div class="ml-3 text-sm font-medium mix-blend-normal text-gray-300">
-						Currently, I am looking for part-time work.
+						Currently, I am looking for work.
 					</div>
 				</div>
 			</div>
@@ -53,7 +53,7 @@ const Hero = () => {
 					rel="noreferrer"
 					href="https://www.linkedin.com/in/sheena-tuazon/"
 					className="border border-slate-900 text-white bg-slate-900 hover:bg-slate-800 focus:ring-4 focus:ring-slate-300 font-medium rounded-lg text-sm px-5 py-2.5 md:mr-2 mb-2  focus:outline-none transition-all duration-200 shadow w-full md:w-fit text-center ">
-					Connect in LinkedIn
+					Connect on LinkedIn
 				</a>
 
 				<a

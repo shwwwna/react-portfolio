@@ -23,7 +23,7 @@ const Card = ({
 					""
 				)}
 			</a>
-			<div className="p-5 relative ">
+			<div className="p-5 ">
 				<h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">
 					{title}
 				</h5>
@@ -37,22 +37,22 @@ const Card = ({
 					);
 				})}
 				<p className="mb-3 font-normal  text-slate-400">{description}</p>
+			</div>
 
-				<div className="absolute bottom-0 right-0 px-3 py-1 flex gap-3 text-xl ">
-					{liveLink && (
-						<a
-							href={liveLink ? liveLink : "#projects"}
-							target={liveLink ? "_blank" : ""}
-							rel="noreferrer">
-							<i className="fa-solid fa-square-arrow-up-right hover:text-teal-300 transition-all duration-200"></i>
-						</a>
-					)}
-					{repoLink && (
-						<a href={repoLink} target="_blank" rel="noreferrer" className="">
-							<i className="fa-brands fa-github hover:text-teal-300 transition-all duration-200"></i>
-						</a>
-					)}
-				</div>
+			<div className="mt-auto ml-auto mr-3 mb-3 flex gap-3 text-xl ">
+				{liveLink && (
+					<a
+						href={liveLink ? liveLink : "#projects"}
+						target={liveLink ? "_blank" : ""}
+						rel="noreferrer">
+						<i className="fa-solid fa-square-arrow-up-right hover:text-teal-300 transition-all duration-200"></i>
+					</a>
+				)}
+				{repoLink && (
+					<a href={repoLink} target="_blank" rel="noreferrer" className="">
+						<i className="fa-brands fa-github hover:text-teal-300 transition-all duration-200"></i>
+					</a>
+				)}
 			</div>
 		</div>
 	);

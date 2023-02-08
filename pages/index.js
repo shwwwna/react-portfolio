@@ -24,7 +24,7 @@ export default function Home() {
 
 			<div className="lg:grid lg:grid-cols-10 selection:bg-teal-900 selection:text-slate">
 				<aside
-					className="self-start lg:sticky lg:h-screen  top-0 col-span-3 flex p-14 flex-col justify-center "
+					className="self-start lg:sticky h-screen  top-0 col-span-3 flex p-14 flex-col justify-center "
 					id="sidebar">
 					<Hero />
 				</aside>
@@ -33,7 +33,7 @@ export default function Home() {
 					<div className="   ">
 						<Image
 							src={HeroImage}
-							alt="a picture of me, smiling at you"
+							alt="me"
 							className="lg:h-screen sm:h-[50rem] h-96 grayscale  hover:grayscale-0   transition-all duration-700  object-cover object-top w-full "
 							priority="true"
 						/>
