@@ -13,10 +13,10 @@ const About = () => {
 					based in the Philippines.
 				</div>
 				<div className="">
-					My interest started back in 2007. When I was 9 years old, I designed
-					and built a self-hosted blog using Photoshop and free hosting & domain
-					services. I have always been enthusiastic about finding the best
-					websites, software, and apps.
+					My interest started back in 2007. When I was 9 years old, I designed and
+					built a self-hosted blog using Photoshop and free hosting & domain
+					services. I have always been enthusiastic about finding the best websites,
+					software, and apps.
 				</div>
 				<div className="">
 					Passionate in creating{" "}
@@ -27,11 +27,10 @@ const About = () => {
 					<span className="group-hover:underline  decoration-teal-500/80 decoration-2 ">
 						impact for businesses
 					</span>
-					. I also keep a database of my webapp ideas to be developed in the
-					future - 70 ideas and counting! Now, after discovering my calling - I
-					am pursuing a career in tech, eager to{" "}
+					. I also keep a database of my webapp ideas to be developed in the future -
+					70 ideas and counting! I am eager to{" "}
 					<span className="group-hover:underline  decoration-teal-500/80 decoration-2 ">
-						never stop learning
+						never stop learning and creating
 					</span>
 					.
 				</div>
@@ -40,12 +39,14 @@ const About = () => {
 				<dl className=" divide-y  text-white divide-gray-700">
 					<div className="flex flex-col pb-3">
 						<dt className="mb-1  md:text-lg text-gray-400">Javascript</dt>
-						<dd className="text-lg font-semibold">ReactJS, NextJS, Vite</dd>
+						<dd className="text-lg font-semibold">
+							ReactJS, NextJS, Vite, AlpineJS, jQuery
+						</dd>
 					</div>
 					<div className="flex flex-col py-3">
 						<dt className="mb-1  md:text-lg text-gray-400">CSS</dt>
 						<dd className="text-lg font-semibold">
-							Material UI, TailwindCSS, styled-components
+							Material UI, TailwindCSS, styled-components, Bootstrap, PureCSS
 						</dd>
 					</div>
 					{/* <div className="flex flex-col py-3">
@@ -53,14 +54,14 @@ const About = () => {
 						<dd className="text-lg font-semibold">Firebase</dd>
 					</div> */}
 					<div className="flex flex-col py-3">
-						<dt className="mb-1  md:text-lg text-gray-400">
-							Visual development
-						</dt>
+						<dt className="mb-1  md:text-lg text-gray-400">Visual development</dt>
 						<dd className="text-lg font-semibold">Webflow</dd>
 					</div>
 					<div className="flex flex-col pt-3">
 						<dt className="mb-1  md:text-lg text-gray-400">Design</dt>
-						<dd className="text-lg font-semibold">Figma, Adobe Photoshop</dd>
+						<dd className="text-lg font-semibold">
+							Figma, Adobe Photoshop, Adobe Illustrator
+						</dd>
 					</div>
 				</dl>
 			</div>
