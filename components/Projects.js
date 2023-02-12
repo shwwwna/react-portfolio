@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Freemodoro from "../public/assets/Freemodoro.png";
 import Shopna from "../public/assets/Shopna.jpg";
+import Gasoliknow from "../public/assets/gasoliknow.png";
 
 const Projects = () => {
 	return (
@@ -24,8 +25,18 @@ const Projects = () => {
 						repoLink="https://github.com/shwwwna/freemodoro"
 						alltags={["ReactJS", "styled-components"]}
 					/>
+
 					<Card
-						imageSource={Shopna}
+						className="basis-full grow"
+						imageSource={Gasoliknow}
+						title="Gasoliknow"
+						description="Gasoliknow is a fuel cost calculator that I use a lot."
+						liveLink="https://gasoliknow.vercel.app/"
+						repoLink="https://github.com/shwwwna/gasoliknow"
+						alltags={["NextJS", "Chakra UI"]}
+					/>
+					<Card
+						imageSource={""}
 						title="Shopna"
 						description="Online shop UI. Navigable front-end of an e-commerce app.  "
 						liveLink="https://shwwwna-shopna.vercel.app/"
