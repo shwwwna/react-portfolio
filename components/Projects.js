@@ -61,15 +61,7 @@ const Projects = () => {
 					/>
 					<Card
 						imageSource={""}
-						title="Inva (under development)"
-						description="UI designer and Front-end developer of a freelance team building an Inventory PWA."
-						liveLink=""
-						repoLink=""
-						alltags={["NextJS", "MUI"]}
-					/>
-					<Card
-						imageSource={""}
-						title="Webflow Portfolio"
+						title="Shwwwna"
 						description="Portfolio of works in Webflow. "
 						liveLink="https://shwwwna.webflow.io/"
 						repoLink=""

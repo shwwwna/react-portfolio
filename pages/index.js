@@ -4,6 +4,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
+import Work from "../components/Work";
 import HeroImage from "../public/assets/hero.png";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
@@ -38,10 +39,13 @@ export default function Home() {
 							priority="true"
 						/>
 					</div>
-					<div className="  p-14 ">
+					<div className=" p-6 lg:p-14 ">
+						<Work />
+					</div>
+					<div className=" p-6 lg:p-14 ">
 						<Projects id="projects" />
 					</div>
-					<div className=" flex items-center flex-col p-14  ">
+					<div className=" flex items-center flex-col p-6 lg:p-14  ">
 						<About />
 					</div>
 					<Footer />

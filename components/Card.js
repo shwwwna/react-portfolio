@@ -5,20 +5,21 @@ const Card = ({
 	imageSource,
 	title,
 	description,
+	affiliation,
 	liveLink,
 	repoLink,
 	alltags,
 }) => {
 	return (
 		<div
-			className={`max-w-sm border rounded-lg shadow-md bg-slate-700 border-gray-700 w-full hover:scale-105 transition-all flex flex-col  
+			className={`lg:max-w-sm border rounded-lg shadow-md bg-slate-700 border-gray-700 w-full hover:scale-[1.025] transition-all flex flex-col   hover:bg-teal-700/5 hover:border-slate-500	
 			}`}>
 			<a
 				href={liveLink ? liveLink : "#projects"}
 				target={liveLink ? "_blank" : ""}
 				rel="noreferrer">
 				{imageSource ? (
-					<Image className="rounded-t-lg" alt="" src={imageSource} />
+					<Image className="rounded-t-lg " alt="" src={imageSource} />
 				) : (
 					""
 				)}
@@ -36,6 +37,8 @@ const Card = ({
 						</span>
 					);
 				})}
+				{affiliation ? <p className="mb-3  text-white ">{affiliation}</p> : ""}
+
 				<p className="mb-3 font-normal  text-slate-400">{description}</p>
 			</div>
 
